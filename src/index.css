@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #B4D429;
+  --color-dark: #171923;
+  --color-light: #ffffff;
+  --color-body: #1D1E28;
+}
+
+.container {
+  /* background-color: var(--color-body); */
+  color: var(--color-light);
+}
+.button {
+  /* background-color: var(--color-primary); */
+  color: var(--color-dark);
+}
+
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;  /* 20px */
+  padding-right: 1.25rem; /* 20px */
+}
+
